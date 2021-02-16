@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none outside none;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.basicInformations
+{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    margin: 25px 10% ;
+    height: 350px;
+}
+
+.profileImage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.profileImage img
+{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+body
+{
+    background-color: rgb(233, 232, 232);
+    font-family: 'Newsreader', serif;
+}
+
+.myName
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: rgb(100, 98, 98);
+    height: 30%;
+}
+
+.informations
+{
+    height: 70%;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.informations li
+{
+    margin-bottom: 5px;
+}
+
+.moreInformations
+{
+    display: flex;
+    width: 80%;
+    height:fit-content;
+    margin: 25px 10% ;
+}
+
+.card
+{
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cardContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.card
+{
+    margin-bottom: 20px;
+}
+
+.title
+{
+    font-size: 18px;
+    color: rgb(100, 98, 98);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.cardContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+
+
